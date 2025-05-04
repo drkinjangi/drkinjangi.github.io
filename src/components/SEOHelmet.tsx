@@ -14,10 +14,10 @@ const SEOHelmet: React.FC<SEOHelmetProps> = ({
   description,
   keywords,
   canonicalUrl,
-  ogImage = 'https://drkinjangi.github.io/og-image.jpg'
+  ogImage = 'https://www.flowagents.dev/og-image.jpg'
 }) => {
   const siteName = 'FlowAgents';
-  const defaultUrl = 'https://drkinjangi.github.io';
+  const defaultUrl = 'https://www.flowagents.dev';
   
   return (
     <Helmet>
